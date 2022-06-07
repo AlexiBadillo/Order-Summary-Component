@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(img/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size: 100% 390px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 25px;
+}
+.container {
+    width: auto;
+    max-width: 420px;
+    min-width: 380px;
+    background-color: #fff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.container-first img {
+    width: 100%;
+    min-width: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.container-second {
+    width: 85%;
+    margin: 20px auto 15px auto;  
+}
+.container-second .second-textos {
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+.container-second .second-textos h1 {
+    color: hsl(223, 47%, 23%);
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 15px;    
+}
+.container-second .second-textos p {
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+}
+.container-third {
+    background-color: hsl(225, 100%, 98%);
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+.container-third .third-textos {
+    width: 100%;
+}
+.container-third .third-textos h2 {
+    font-size: 16px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+.container-third .third-textos p {
+    color: hsl(224, 23%, 55%);
+}
+.container-third a {
+    color: hsl(245, 75%, 52%);
+}
+.container-third a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+.container-fourth {
+    width: 85%;
+    margin: 0 auto;
+}
+.container-fourth .forth-firstbutton {
+    width: 100%;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 15px;
+    border: 1px solid hsl(245, 75%, 52%);
+    padding: 15px;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: 0px 20px 10px rgb(219, 215, 249);
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.container-fourth .forth-firstbutton:hover {
+    background-color: hsl(245, 67%, 62%);
+    cursor: pointer;
+}
+.container-fourth .forth-secondbutton {
+    width: 100%;
+    border-radius: 15px;
+    padding: 15px;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.container-fourth .forth-secondbutton:hover {
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+@media screen and (max-width: 500px) {
+    body {
+        background-image: url(img/pattern-background-mobile.svg);
+    }
+}
